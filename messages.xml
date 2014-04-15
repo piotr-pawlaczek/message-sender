@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<messages>
+	<message>
+	  <type>MAIL</type>
+	  <recipient>Tomek</recipient>
+	  <body>Don't forget me this weekend!</body>
+  	</message>
+  	<message>
+	  <type>MAIL</type>
+	  <recipient>Monika</recipient>
+	  <body>I promise I won't!</body>
+  	</message>
+</messages>

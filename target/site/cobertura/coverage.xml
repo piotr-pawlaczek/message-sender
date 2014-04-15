@@ -1,0 +1,989 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.5344129554655871" branch-rate="0.6190476190476191" lines-covered="132" lines-valid="247" branches-covered="13" branches-valid="21" complexity="1.6" version="2.0.3" timestamp="1397578056705">
+	<sources>
+		<source>--source</source>
+		<source>D:/Programming/Java/workspace4/message-sender/src/main/java</source>
+	</sources>
+	<packages>
+		<package name="pl.nsn.message" line-rate="0.9636363636363636" branch-rate="1.0" complexity="1.375">
+			<classes>
+				<class name="pl.nsn.message.MailMessage" filename="pl/nsn/message/MailMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="8" branch="false"/>
+								<line number="14" hits="8" branch="false"/>
+								<line number="15" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="18" hits="3" branch="false"/>
+								<line number="19" hits="3" branch="false"/>
+								<line number="20" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getType" signature="()Lpl/nsn/message/MessageType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="24" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="send" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="29" hits="2" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="8" branch="false"/>
+						<line number="14" hits="8" branch="false"/>
+						<line number="15" hits="8" branch="false"/>
+						<line number="18" hits="3" branch="false"/>
+						<line number="19" hits="3" branch="false"/>
+						<line number="20" hits="3" branch="false"/>
+						<line number="24" hits="4" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.Message" filename="pl/nsn/message/Message.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="14" branch="false"/>
+								<line number="26" hits="14" branch="false"/>
+								<line number="27" hits="14" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="19" hits="19" branch="false"/>
+								<line number="29" hits="5" branch="false"/>
+								<line number="30" hits="5" branch="false"/>
+								<line number="31" hits="5" branch="false"/>
+								<line number="32" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getRecipient" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="40" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getText" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="59" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setRecipient" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="50" hits="5" branch="false"/>
+								<line number="51" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="setText" signature="(Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="69" hits="5" branch="false"/>
+								<line number="70" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="19" hits="19" branch="false"/>
+						<line number="25" hits="14" branch="false"/>
+						<line number="26" hits="14" branch="false"/>
+						<line number="27" hits="14" branch="false"/>
+						<line number="29" hits="5" branch="false"/>
+						<line number="30" hits="5" branch="false"/>
+						<line number="31" hits="5" branch="false"/>
+						<line number="32" hits="5" branch="false"/>
+						<line number="40" hits="5" branch="false"/>
+						<line number="50" hits="5" branch="false"/>
+						<line number="51" hits="5" branch="false"/>
+						<line number="59" hits="5" branch="false"/>
+						<line number="69" hits="5" branch="false"/>
+						<line number="70" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.MessageBean" filename="pl/nsn/message/MessageBean.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="2" branch="false"/>
+								<line number="29" hits="2" branch="false"/>
+								<line number="30" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAllMessages" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="48" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="save" signature="(Lpl/nsn/message/Message;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="39" hits="1" branch="false"/>
+								<line number="40" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="28" hits="2" branch="false"/>
+						<line number="29" hits="2" branch="false"/>
+						<line number="30" hits="2" branch="false"/>
+						<line number="39" hits="1" branch="false"/>
+						<line number="40" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.MessageFactory" filename="pl/nsn/message/MessageFactory.java" line-rate="0.6" branch-rate="1.0" complexity="6.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessage" signature="(Lpl/nsn/message/MessageType;)Lpl/nsn/message/Message;" line-rate="0.75" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="switch" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="23" hits="3" branch="false"/>
+								<line number="25" hits="2" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0" branch="false"/>
+						<line number="21" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="switch" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="23" hits="3" branch="false"/>
+						<line number="25" hits="2" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.MessageFactory$1" filename="pl/nsn/message/MessageFactory.java" line-rate="1.0" branch-rate="1.0" complexity="6.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="21" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.MessageType" filename="pl/nsn/message/MessageType.java" line-rate="1.0" branch-rate="1.0" complexity="2.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="14" branch="false"/>
+								<line number="13" hits="4" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;ILjava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="17" hits="8" branch="false"/>
+								<line number="18" hits="8" branch="false"/>
+								<line number="19" hits="8" branch="false"/>
+							</lines>
+						</method>
+						<method name="fromName" signature="(Ljava/lang/String;)Lpl/nsn/message/MessageType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="6" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="44" hits="5" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="45" hits="2" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="27" hits="7" branch="false"/>
+							</lines>
+						</method>
+						<method name="toString" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="32" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lpl/nsn/message/MessageType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lpl/nsn/message/MessageType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="14" branch="false"/>
+						<line number="13" hits="4" branch="false"/>
+						<line number="17" hits="8" branch="false"/>
+						<line number="18" hits="8" branch="false"/>
+						<line number="19" hits="8" branch="false"/>
+						<line number="27" hits="7" branch="false"/>
+						<line number="32" hits="2" branch="false"/>
+						<line number="43" hits="6" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="44" hits="5" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="45" hits="2" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.SMSMessage" filename="pl/nsn/message/SMSMessage.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="13" hits="6" branch="false"/>
+								<line number="14" hits="6" branch="false"/>
+								<line number="15" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;Ljava/lang/String;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="22" hits="2" branch="false"/>
+								<line number="23" hits="2" branch="false"/>
+								<line number="24" hits="2" branch="false"/>
+							</lines>
+						</method>
+						<method name="getType" signature="()Lpl/nsn/message/MessageType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="send" signature="()Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="33" hits="1" branch="false"/>
+								<line number="34" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="6" branch="false"/>
+						<line number="14" hits="6" branch="false"/>
+						<line number="15" hits="6" branch="false"/>
+						<line number="22" hits="2" branch="false"/>
+						<line number="23" hits="2" branch="false"/>
+						<line number="24" hits="2" branch="false"/>
+						<line number="28" hits="3" branch="false"/>
+						<line number="33" hits="1" branch="false"/>
+						<line number="34" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="pl.nsn.message.dao" line-rate="0.863013698630137" branch-rate="1.0" complexity="1.875">
+			<classes>
+				<class name="pl.nsn.message.dao.DaoFactory" filename="pl/nsn/message/dao/DaoFactory.java" line-rate="1.0" branch-rate="1.0" complexity="2.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDAOFactory" signature="(Lpl/nsn/message/dao/DaoType;)Lpl/nsn/message/dao/DaoFactory;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="5" branch="true" condition-coverage="100% (1/1)">
+									<conditions>
+										<condition number="0" type="switch" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="18" hits="5" branch="false"/>
+								<line number="20" hits="5" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="5" branch="false"/>
+						<line number="16" hits="5" branch="true" condition-coverage="100% (1/1)">
+							<conditions>
+								<condition number="0" type="switch" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="18" hits="5" branch="false"/>
+						<line number="20" hits="5" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.dao.DaoFactory$1" filename="pl/nsn/message/dao/DaoFactory.java" line-rate="1.0" branch-rate="1.0" complexity="2.5">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="16" hits="3" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="16" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.dao.DaoType" filename="pl/nsn/message/dao/DaoType.java" line-rate="1.0" branch-rate="1.0" complexity="0.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="12" hits="12" branch="false"/>
+								<line number="13" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="(Ljava/lang/String;I)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="valueOf" signature="(Ljava/lang/String;)Lpl/nsn/message/dao/DaoType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+						<method name="values" signature="()[Lpl/nsn/message/dao/DaoType;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="12" branch="false"/>
+						<line number="13" hits="3" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.dao.MessageDao" filename="pl/nsn/message/dao/MessageDao.java" line-rate="1.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+					</methods>
+					<lines>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.dao.MessageXMLDao" filename="pl/nsn/message/dao/MessageXMLDao.java" line-rate="0.8333333333333334" branch-rate="1.0" complexity="1.8">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljava/io/File;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="37" hits="6" branch="false"/>
+								<line number="38" hits="6" branch="false"/>
+								<line number="39" hits="6" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessage" signature="(Lorg/w3c/dom/Node;Ljavax/xml/xpath/XPath;)Lpl/nsn/message/Message;" line-rate="0.7777777777777778" branch-rate="1.0">
+							<lines>
+								<line number="101" hits="3" branch="false"/>
+								<line number="102" hits="3" branch="false"/>
+								<line number="103" hits="3" branch="false"/>
+								<line number="105" hits="3" branch="false"/>
+								<line number="106" hits="3" branch="false"/>
+								<line number="107" hits="3" branch="false"/>
+								<line number="108" hits="3" branch="false"/>
+								<line number="109" hits="0" branch="false"/>
+								<line number="110" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessageChilds" signature="(Lorg/w3c/dom/Document;Lpl/nsn/message/Message;)Ljava/util/List;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="53" hits="1" branch="false"/>
+								<line number="54" hits="1" branch="false"/>
+								<line number="55" hits="1" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessageTag" signature="(Lorg/w3c/dom/Document;Ljava/util/List;)Lorg/w3c/dom/Element;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="67" hits="1" branch="false"/>
+								<line number="68" hits="1" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="69" hits="3" branch="false"/>
+								<line number="70" hits="3" branch="false"/>
+								<line number="71" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessages" signature="(Lorg/w3c/dom/Document;Ljavax/xml/xpath/XPath;I)Ljava/util/List;" line-rate="0.75" branch-rate="1.0">
+							<lines>
+								<line number="83" hits="1" branch="false"/>
+								<line number="84" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="86" hits="3" branch="false"/>
+								<line number="87" hits="3" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="3" branch="false"/>
+								<line number="92" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="createTag" signature="(Ljava/lang/String;Lorg/w3c/dom/Document;Ljava/lang/String;)Lorg/w3c/dom/Element;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="60" hits="3" branch="false"/>
+								<line number="61" hits="3" branch="false"/>
+								<line number="62" hits="3" branch="false"/>
+								<line number="63" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMessagesCount" signature="(Lorg/w3c/dom/Document;Ljavax/xml/xpath/XPath;)I" line-rate="0.25" branch-rate="1.0">
+							<lines>
+								<line number="116" hits="1" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="118" hits="0" branch="false"/>
+								<line number="120" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="list" signature="()Ljava/util/List;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="76" hits="1" branch="false"/>
+								<line number="77" hits="1" branch="false"/>
+								<line number="78" hits="1" branch="false"/>
+								<line number="79" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="prepareMessageQuery" signature="(I)Ljava/lang/String;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="96" hits="3" branch="false"/>
+							</lines>
+						</method>
+						<method name="saveMessage" signature="(Lpl/nsn/message/Message;)V" line-rate="0.8333333333333334" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+								<line number="47" hits="1" branch="false"/>
+								<line number="49" hits="1" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="37" hits="6" branch="false"/>
+						<line number="38" hits="6" branch="false"/>
+						<line number="39" hits="6" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="47" hits="1" branch="false"/>
+						<line number="49" hits="1" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="54" hits="1" branch="false"/>
+						<line number="55" hits="1" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="60" hits="3" branch="false"/>
+						<line number="61" hits="3" branch="false"/>
+						<line number="62" hits="3" branch="false"/>
+						<line number="63" hits="3" branch="false"/>
+						<line number="67" hits="1" branch="false"/>
+						<line number="68" hits="1" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="69" hits="3" branch="false"/>
+						<line number="70" hits="3" branch="false"/>
+						<line number="71" hits="1" branch="false"/>
+						<line number="76" hits="1" branch="false"/>
+						<line number="77" hits="1" branch="false"/>
+						<line number="78" hits="1" branch="false"/>
+						<line number="79" hits="1" branch="false"/>
+						<line number="83" hits="1" branch="false"/>
+						<line number="84" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="86" hits="3" branch="false"/>
+						<line number="87" hits="3" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="3" branch="false"/>
+						<line number="92" hits="1" branch="false"/>
+						<line number="96" hits="3" branch="false"/>
+						<line number="101" hits="3" branch="false"/>
+						<line number="102" hits="3" branch="false"/>
+						<line number="103" hits="3" branch="false"/>
+						<line number="105" hits="3" branch="false"/>
+						<line number="106" hits="3" branch="false"/>
+						<line number="107" hits="3" branch="false"/>
+						<line number="108" hits="3" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+						<line number="110" hits="0" branch="false"/>
+						<line number="116" hits="1" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="118" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.dao.XMLDaoFactory" filename="pl/nsn/message/dao/XMLDaoFactory.java" line-rate="0.8888888888888888" branch-rate="1.0" complexity="2.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="28" hits="5" branch="false"/>
+								<line number="30" hits="5" branch="false"/>
+							</lines>
+						</method>
+						<method name="fillFile" signature="()V" line-rate="0.8333333333333334" branch-rate="1.0">
+							<lines>
+								<line number="43" hits="1" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="47" hits="1" branch="false"/>
+								<line number="48" hits="1" branch="false"/>
+								<line number="50" hits="1" branch="false"/>
+								<line number="51" hits="1" branch="false"/>
+								<line number="53" hits="1" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="1" branch="false"/>
+								<line number="57" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMessageDAO" signature="()Lpl/nsn/message/dao/MessageDao;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="34" hits="4" branch="false"/>
+								<line number="35" hits="4" branch="true" condition-coverage="100% (2/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="100%"/>
+									</conditions>
+								</line>
+								<line number="36" hits="1" branch="false"/>
+								<line number="38" hits="4" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="28" hits="5" branch="false"/>
+						<line number="30" hits="5" branch="false"/>
+						<line number="34" hits="4" branch="false"/>
+						<line number="35" hits="4" branch="true" condition-coverage="100% (2/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="100%"/>
+							</conditions>
+						</line>
+						<line number="36" hits="1" branch="false"/>
+						<line number="38" hits="4" branch="false"/>
+						<line number="43" hits="1" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="47" hits="1" branch="false"/>
+						<line number="48" hits="1" branch="false"/>
+						<line number="50" hits="1" branch="false"/>
+						<line number="51" hits="1" branch="false"/>
+						<line number="53" hits="1" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="1" branch="false"/>
+						<line number="57" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="pl.nsn.message.gui" line-rate="0.0" branch-rate="0.0" complexity="1.3846153846153846">
+			<classes>
+				<class name="pl.nsn.message.gui.MessageUI" filename="pl/nsn/message/gui/MessageUI.java" line-rate="0.0" branch-rate="0.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="201" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$000" signature="(Lpl/nsn/message/gui/MessageUI;)Lcom/vaadin/ui/Table;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createMessageComboBox" signature="()Lcom/vaadin/ui/ComboBox;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="180" hits="0" branch="false"/>
+								<line number="181" hits="0" branch="false"/>
+								<line number="182" hits="0" branch="false"/>
+								<line number="183" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="184" hits="0" branch="false"/>
+								<line number="186" hits="0" branch="false"/>
+								<line number="187" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getMessageBean" signature="()Lpl/nsn/message/MessageBean;" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="61" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="init" signature="(Lcom/vaadin/server/VaadinRequest;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="initContactList" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="221" hits="0" branch="false"/>
+								<line number="222" hits="0" branch="false"/>
+								<line number="224" hits="0" branch="false"/>
+								<line number="225" hits="0" branch="false"/>
+								<line number="227" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="initEditor" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="134" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+								<line number="137" hits="0" branch="false"/>
+								<line number="138" hits="0" branch="false"/>
+								<line number="139" hits="0" branch="false"/>
+								<line number="141" hits="0" branch="false"/>
+								<line number="142" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="146" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+								<line number="175" hits="0" branch="false"/>
+								<line number="176" hits="0" branch="false"/>
+								<line number="177" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="initLayout" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="94" hits="0" branch="false"/>
+								<line number="95" hits="0" branch="false"/>
+								<line number="98" hits="0" branch="false"/>
+								<line number="99" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="false"/>
+								<line number="107" hits="0" branch="false"/>
+								<line number="113" hits="0" branch="false"/>
+								<line number="114" hits="0" branch="false"/>
+								<line number="115" hits="0" branch="false"/>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+								<line number="123" hits="0" branch="false"/>
+								<line number="124" hits="0" branch="false"/>
+								<line number="125" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="initSearch" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="191" hits="0" branch="false"/>
+								<line number="192" hits="0" branch="false"/>
+								<line number="193" hits="0" branch="false"/>
+								<line number="199" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="retrieveData" signature="()Lcom/vaadin/data/util/IndexedContainer;" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="74" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="77" hits="0" branch="false"/>
+								<line number="80" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="85" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="77" hits="0" branch="false"/>
+						<line number="80" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="94" hits="0" branch="false"/>
+						<line number="95" hits="0" branch="false"/>
+						<line number="98" hits="0" branch="false"/>
+						<line number="99" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="107" hits="0" branch="false"/>
+						<line number="113" hits="0" branch="false"/>
+						<line number="114" hits="0" branch="false"/>
+						<line number="115" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="123" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="false"/>
+						<line number="125" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="134" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="137" hits="0" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="139" hits="0" branch="false"/>
+						<line number="141" hits="0" branch="false"/>
+						<line number="142" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+						<line number="175" hits="0" branch="false"/>
+						<line number="176" hits="0" branch="false"/>
+						<line number="177" hits="0" branch="false"/>
+						<line number="180" hits="0" branch="false"/>
+						<line number="181" hits="0" branch="false"/>
+						<line number="182" hits="0" branch="false"/>
+						<line number="183" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="184" hits="0" branch="false"/>
+						<line number="186" hits="0" branch="false"/>
+						<line number="187" hits="0" branch="false"/>
+						<line number="191" hits="0" branch="false"/>
+						<line number="192" hits="0" branch="false"/>
+						<line number="193" hits="0" branch="false"/>
+						<line number="199" hits="0" branch="false"/>
+						<line number="201" hits="0" branch="false"/>
+						<line number="221" hits="0" branch="false"/>
+						<line number="222" hits="0" branch="false"/>
+						<line number="224" hits="0" branch="false"/>
+						<line number="225" hits="0" branch="false"/>
+						<line number="227" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.gui.MessageUI$1" filename="pl/nsn/message/gui/MessageUI.java" line-rate="0.0" branch-rate="0.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpl/nsn/message/gui/MessageUI;Lcom/vaadin/ui/TextField;Lcom/vaadin/ui/ComboBox;Lcom/vaadin/ui/TextArea;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="149" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="buttonClick" signature="(Lcom/vaadin/ui/Button$ClickEvent;)V" line-rate="0.0" branch-rate="0.0">
+							<lines>
+								<line number="154" hits="0" branch="true" condition-coverage="0% (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0%"/>
+									</conditions>
+								</line>
+								<line number="155" hits="0" branch="false"/>
+								<line number="156" hits="0" branch="false"/>
+								<line number="158" hits="0" branch="false"/>
+								<line number="159" hits="0" branch="false"/>
+								<line number="160" hits="0" branch="false"/>
+								<line number="162" hits="0" branch="false"/>
+								<line number="164" hits="0" branch="false"/>
+								<line number="166" hits="0" branch="false"/>
+								<line number="167" hits="0" branch="false"/>
+								<line number="169" hits="0" branch="false"/>
+								<line number="170" hits="0" branch="false"/>
+								<line number="171" hits="0" branch="false"/>
+								<line number="173" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="149" hits="0" branch="false"/>
+						<line number="154" hits="0" branch="true" condition-coverage="0% (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0%"/>
+							</conditions>
+						</line>
+						<line number="155" hits="0" branch="false"/>
+						<line number="156" hits="0" branch="false"/>
+						<line number="158" hits="0" branch="false"/>
+						<line number="159" hits="0" branch="false"/>
+						<line number="160" hits="0" branch="false"/>
+						<line number="162" hits="0" branch="false"/>
+						<line number="164" hits="0" branch="false"/>
+						<line number="166" hits="0" branch="false"/>
+						<line number="167" hits="0" branch="false"/>
+						<line number="169" hits="0" branch="false"/>
+						<line number="170" hits="0" branch="false"/>
+						<line number="171" hits="0" branch="false"/>
+						<line number="173" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.gui.MessageUI$2" filename="pl/nsn/message/gui/MessageUI.java" line-rate="0.0" branch-rate="1.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpl/nsn/message/gui/MessageUI;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="193" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="textChange" signature="(Lcom/vaadin/event/FieldEvents$TextChangeEvent;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="195" hits="0" branch="false"/>
+								<line number="196" hits="0" branch="false"/>
+								<line number="197" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="193" hits="0" branch="false"/>
+						<line number="195" hits="0" branch="false"/>
+						<line number="196" hits="0" branch="false"/>
+						<line number="197" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="pl.nsn.message.gui.MessageUI$ContactFilter" filename="pl/nsn/message/gui/MessageUI.java" line-rate="0.0" branch-rate="1.0" complexity="1.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lpl/nsn/message/gui/MessageUI;Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="204" hits="0" branch="false"/>
+								<line number="205" hits="0" branch="false"/>
+								<line number="206" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="appliesToProperty" signature="(Ljava/lang/Object;)Z" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="216" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="passesFilter" signature="(Ljava/lang/Object;Lcom/vaadin/data/Item;)Z" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="209" hits="0" branch="false"/>
+								<line number="212" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="204" hits="0" branch="false"/>
+						<line number="205" hits="0" branch="false"/>
+						<line number="206" hits="0" branch="false"/>
+						<line number="209" hits="0" branch="false"/>
+						<line number="212" hits="0" branch="false"/>
+						<line number="216" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="pl.nsn.message.utils" line-rate="0.9411764705882353" branch-rate="1.0" complexity="3.5">
+			<classes>
+				<class name="pl.nsn.message.utils.XMLUtils" filename="pl/nsn/message/utils/XMLUtils.java" line-rate="0.9411764705882353" branch-rate="1.0" complexity="3.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getXmlDocument" signature="(Ljava/io/File;)Lorg/w3c/dom/Document;" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="58" hits="4" branch="false"/>
+								<line number="59" hits="4" branch="false"/>
+								<line number="60" hits="4" branch="false"/>
+								<line number="61" hits="3" branch="false"/>
+								<line number="62" hits="1" branch="false"/>
+								<line number="63" hits="1" branch="false"/>
+							</lines>
+						</method>
+						<method name="updateXMLFile" signature="(Lorg/w3c/dom/Document;Ljava/io/File;)V" line-rate="1.0" branch-rate="1.0">
+							<lines>
+								<line number="38" hits="2" branch="false"/>
+								<line number="39" hits="2" branch="false"/>
+								<line number="40" hits="2" branch="false"/>
+								<line number="41" hits="2" branch="false"/>
+								<line number="42" hits="2" branch="false"/>
+								<line number="43" hits="2" branch="false"/>
+								<line number="44" hits="1" branch="false"/>
+								<line number="45" hits="1" branch="false"/>
+								<line number="46" hits="1" branch="false"/>
+								<line number="47" hits="1" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="0" branch="false"/>
+						<line number="38" hits="2" branch="false"/>
+						<line number="39" hits="2" branch="false"/>
+						<line number="40" hits="2" branch="false"/>
+						<line number="41" hits="2" branch="false"/>
+						<line number="42" hits="2" branch="false"/>
+						<line number="43" hits="2" branch="false"/>
+						<line number="44" hits="1" branch="false"/>
+						<line number="45" hits="1" branch="false"/>
+						<line number="46" hits="1" branch="false"/>
+						<line number="47" hits="1" branch="false"/>
+						<line number="58" hits="4" branch="false"/>
+						<line number="59" hits="4" branch="false"/>
+						<line number="60" hits="4" branch="false"/>
+						<line number="61" hits="3" branch="false"/>
+						<line number="62" hits="1" branch="false"/>
+						<line number="63" hits="1" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
